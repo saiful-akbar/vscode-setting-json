@@ -1,0 +1,24 @@
+{
+  // untuk konfigurasi prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // format code on save
+  "editor.formatOnSave": true,
+
+  // update import on file move
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // emmet jsx
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  "emmet.triggerExpansionOnTab": true,
+  "blade.format.enable": true,
+  "[blade]": {
+    "editor.autoClosingBrackets": "always"
+  }
+}
